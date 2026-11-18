@@ -1,0 +1,241 @@
+*{
+    background: black;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    background: #1111;
+}
+
+.logo{
+    color: #ff6ec7;
+   font-style: italic;
+   display: flex;
+   gap: 10px;
+ 
+    margin: 15px;
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul li {
+    font-size: 14px;
+    color: white;
+    border-bottom: 2px solid #ff6ec7;
+
+}
+
+#pink {
+   
+   background: linear-gradient(90deg, #ff6ec7, white,  #ff6ec7);
+   
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    padding: 10px;
+    
+}
+
+.hello {
+    color: #ff6ec7;
+    width: fit-content;
+    margin: 15px;   
+}
+.hello p {
+    color: white;
+}
+.hello h3 {
+    color: white;
+}
+
+.view {
+   background: linear-gradient(90deg, #ff6ec7, white,  #ff6ec7);
+   
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    padding: 10px; 
+}
+
+.get {
+   background: transparent;
+   color: #ff6ec7;
+   
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 20px;
+    padding: 10px;
+}
+
+.outline {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    
+}
+
+.personality {
+    margin: 15px;
+
+}
+.personality p {
+    color: #ff6ec7;
+    
+}
+.personality h3 {
+    color: white;
+}
+.personality h5 {
+    color: white;
+}
+
+.about {
+    color: white;
+    display: flex;
+    gap: 50px;
+    margin: 15px;
+
+}
+
+.learn {
+    height: 40px;
+    background: transparent;
+    color: #ff6ec7;
+    margin: 15px;
+    border-color: #ff6ec7;
+    border-radius: 25px;
+}
+
+.section  small{
+    color: #ff6ec7;
+    margin: 15px;
+}
+.section h2 {
+    color: white;
+    margin: 15px;
+}
+
+.technologies {
+
+    width: 100px;
+    height: 70px;
+    background: rgb(12, 12, 12);
+    color: white;
+    border-radius: 20px;
+    margin: 15px;
+    gap: 10px;
+
+}
+
+.technologies img {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+
+.task {
+    margin: 15px;
+}
+.task small {
+    color: #ff6ec7;
+}
+.task h4 {
+    color: white;
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    border-color: #aaa;
+}
+
+.card {
+    border-color: gray;
+    border-radius: 12px;
+    
+
+    width: 300px;
+}
+.card img {
+    width: 300px;
+    height: 180px;
+    padding: 15px;
+    border-radius: 12px;
+}
+.card-body h3{
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin: 15px;
+}
+.card p{
+     color: #aaa;
+     width: 300px;
+     font-size: 12.5px;
+     margin-bottom: 10px;
+}
+.tags{
+    display: flex;
+    gap: 6px;
+    width: 300px;
+
+}
+.tags span {
+    background: grey;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.bottom {
+    display: flex;
+    gap: 60px;
+    margin: 15px;
+}
+.bottom div {
+    width: 50%;
+}
+.bottom p {
+    color: #ccc;
+     font-size: 14px;
+     margin-bottom: 10px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #ff6ec7;
+    font-size: 13px;
+}
